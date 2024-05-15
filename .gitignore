@@ -81,3 +81,4 @@ vendor/phpmailer/phpmailer/src/PHPMailer.php
 vendor/phpmailer/phpmailer/src/POP3.php
 vendor/phpmailer/phpmailer/src/SMTP.php
 vendor/phpmailer/phpmailer/VERSION
+config-ifsp.ini
