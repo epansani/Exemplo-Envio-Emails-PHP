@@ -23,9 +23,9 @@ try {
     $mail->Port = $conf["port"];
 
     // Remetente e Destinatários
-    $mail->setFrom('VP000096@nao-responda.ifsp.edu.br', 'Teste de envio de emails IFSP');
-    $mail->addAddress('epansani@gmail.com', 'Eder Pansani');
-    $mail->addReplyTo('epansani@ifsp.edu.br', 'Suporte Sistema');
+    $mail->setFrom('username@host.com', 'Nome do From');
+    $mail->addAddress('email_destino@host.com', 'Nome do destino');
+    $mail->addReplyTo('email_responder_para@host.com', 'Nome de quem receberá a resposta');
     //$mail->addCC('cc@example.com');
     //$mail->addBCC('bcc@example.com');
 
